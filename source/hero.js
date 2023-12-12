@@ -1,11 +1,12 @@
-let nivel = 0
+let lvl = 0
 let heroi = "Rafael S."
-let treinar = ("O heroi " + heroi + " precisa treinar mais para atingir o INFINITO E ALÉM!" )
+console.log("Olá jovem, este é o Ranking Mundial de nível dos heróis, você apenas passará ao conquistar o nivel Radiante! Seu nível atual é " + lvl)
+console.log(" Caro " + heroi + " vamos fazer um treino bem pesado, para conquistar o nível Radiante!");
 
-for (i = 0; i < 1000; i + 1001){
-    
-if (nivel < 1000) 
-    console.log("Seu nível é muito abaixo do esperado, você está muito fraco jovem, seu nível atual é: Bronze")
-    console.log(treinar) 
-}
+do{
+    lvl += 10001;
+    console.log("  Nossa, esse foi um treino pesado ein!");
+} while (lvl < 10000);
 
+console.log("   O Herói de nome " + heroi + " está no nível de " + lvl)
+console.log("    Agora sim, você está maromba ein!")
